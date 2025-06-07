@@ -1,6 +1,7 @@
 import { Elysia } from "elysia"
 import { swagger } from "@elysiajs/swagger"
 import { elysiaRoutes } from "@/server/controllers"
+
 export const elysiaApp = new Elysia()
   .use(
     swagger({
